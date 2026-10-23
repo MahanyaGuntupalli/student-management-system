@@ -1,32 +1,43 @@
-# Student Management System
+<div align="center">
+  <h1>🎓 Student Management System</h1>
+  <p><strong>A simple Python app for managing student records from the command line.</strong></p>
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white" />
+    <img alt="Interface" src="https://img.shields.io/badge/Interface-Command--line-555555" />
+    <img alt="Storage" src="https://img.shields.io/badge/Storage-Text%20file-4B8BBE" />
+  </p>
+</div>
 
-A lightweight, menu-driven student record manager written in Python. It demonstrates basic record operations with file-based persistence and does not require a database.
+## 📌 Overview
 
-## Features
+This menu-driven project demonstrates how a small Python application can add, display, search, and remove student records. Records are saved in students.txt, so they are available the next time the program runs.
 
-- Add a student record
-- List saved student records
-- Search for a student
-- Delete a student record
-- Keep records in students.txt between runs
+## ✨ Features
 
-## Requirements
+| Operation | Description |
+|---|---|
+| Add | Save a student record |
+| View | List saved student records |
+| Search | Find a student record |
+| Delete | Remove a student record |
 
-- Python 3
+## 🚀 Run the program
 
-## Run
+You need Python 3. Open a terminal in the repository folder and run:
 
-    python main.py
+```bash
+python main.py
+```
 
-Use the numbered menu to choose an operation. The application reads and writes student data in students.txt in the project directory.
+Choose an operation from the menu. The program uses students.txt in the project folder for data storage.
 
-## Project files
+## 🗂️ Project files
 
-| File | Purpose |
-| --- | --- |
-| main.py | Menu and student record operations |
-| students.txt | Local data file used by the application |
+```text
+main.py       Menu and student record operations
+students.txt  Local student data file
+```
 
-## Learning goals
+## 🧠 Concepts practiced
 
-This project is a practical exercise in Python functions, input handling, searching, file reading, and file writing.
+Python functions, input handling, searching, and reading and writing files.
